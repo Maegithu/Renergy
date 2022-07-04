@@ -1,0 +1,57 @@
+.contactContainer {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+}
+
+.contactText {
+    font-size: .9rem;
+    margin-left: 10px;
+}
+
+.social {
+    display: flex;
+}
+
+.talbar {
+    display: flex;
+    align-items: center;
+    margin: 0 8px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #242935;
+    color: #c9ced5;
+    padding: 0 1rem;
+    position: sticky;
+    top: 0;
+}
+
+.menuItem {
+    margin: 0 20px;
+    cursor: pointer;
+    padding: 5px;
+    border-bottom: 2px solid transparent;
+}
+
+.menuItem:hover {
+    border-color: #c9ced5;
+}
+
+.iconColor {
+    color: #21272d;
+}
